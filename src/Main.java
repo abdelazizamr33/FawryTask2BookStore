@@ -9,9 +9,9 @@ import java.time.Year;
 
 public class Main {
     public static void main(String[] args) {
-        Test.TestAddBook();
-        Test.TestRemoveOutDatedBooks();
-        Test.BuyBook();
+        Test.TestAddBook(); // test to add books methods
+        Test.TestRemoveOutDatedBooks(); // test to remove books before 15 years
+        Test.BuyBook(); // test to customer buy book ebook and paper one
 
 
     }
